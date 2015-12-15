@@ -1,0 +1,161 @@
+*{
+    font-family:Arial;
+    padding:0px;
+    margin:0px;
+
+}
+div{
+    background-color:white;
+}
+body{
+    background-color:#212121;
+    
+}
+#page{
+    margin:0px;
+    float:center;
+    width:1000px;
+    float:center;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+#header{
+    width:1000px;
+    left:0px;
+    padding:20px 15px;
+}
+#header img{
+    width:20px;
+}
+
+#content{
+    float:left;
+    width:945px;
+    padding:20px;
+}
+h2{
+    padding:20px;
+}
+.left1{
+    margin-top:40px;
+    margin-right:50px;
+    float:left;
+}
+.left2{
+    margin-top:40px;
+    float:left;
+    width:50%;
+    padding-right:53px;
+}
+.right1{
+    float:left;
+    margin-top:30px;
+    padding-left:20px;
+    padding-right:124px;
+}
+.firstimg img{
+    width:120px;
+    float:left;
+    margin:20px;
+}
+.secondimg img{
+    width:100px;
+    float:left;
+    margin:20px;
+    margin-right:30px;
+}
+.thirdimg img{
+    width:100px;
+    margin:20px;
+}
+.left2 li{
+    list-style-type:none;
+    display:inline;
+}
+.right{
+    margin-top:40px;
+    float:right;
+}
+p{
+    padding:20px;
+    font-size:20px;
+}
+#nav{
+    float:left;
+}
+#nav img{
+    width:200px;
+    padding:0px;
+}
+#nav li:first-child{
+    padding:0px;
+    margin:0px;
+}
+#nav ul .first_inner{
+    display:none;
+    position:absolute;
+}
+#nav ul .first_inner li{
+    float:none;
+}
+#nav ul li:hover > ul{
+    display:block;
+}
+#nav ul li .first_inner{
+    background-color:black;
+}
+#nav ul li .first_inner a{
+    line-height:120%;
+}
+#nav ul .first_inner li{
+    padding:0px;
+    margin:0px;
+}
+#nav ul a{
+    display:block;
+}
+#nav ul{
+    padding:0px;
+}
+#nav a{
+   transition:color .5s;
+   color:#B6B2B8;
+   text-decoration:none;
+   top:100%;
+}
+
+#nav a:hover{
+    color:#00FF0B;
+}
+#nav li{
+    transition:background-color .5s;
+    background-color:black;
+    padding-left:20px;
+    padding-right:30px;
+    padding-top:87px;
+    padding-bottom:35px;
+    float:left;
+
+}
+
+#nav ul li{
+     list-style-type:none;
+     float:left;
+     display:inline;
+     font-size:30px;
+}
+
+#nav ul li .first_inner li{
+    border-right:none;
+
+}
+#nav ul li .first_inner li a{
+    padding-left:20px;
+    width:150px;
+}
+.lastlist{
+    padding-right:288px;
+    float:left;
+    background-color:black;
+}
